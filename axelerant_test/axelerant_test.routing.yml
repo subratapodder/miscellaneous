@@ -1,0 +1,7 @@
+axelerant_test.get_json_data_by_nid:
+    path: '/page_json/{api_key}/{nid}'
+    defaults:
+        _controller: '\Drupal\axelerant_test\Controller\AxelerantTestController::getJsonDataByNid'
+        _title: 'Export Specific Node Data'
+    requirements:
+        _permission: 'access content'
